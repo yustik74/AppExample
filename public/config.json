@@ -1,0 +1,38 @@
+{
+  "Name": {
+    "ru": "Пример приложения",
+    "en": "Application example",
+    "cs": "Příklady App",
+    "az": "App nümunələri"
+  },
+  "Description": {
+    "ru": "Разработка приложений для разработчиков",
+    "en": "Application Development for Developers",
+    "cs": "Vývoj aplikací pro vývojáře",
+    "az": "Tərtibatçılar üçün Proqram İnkişafı"
+  },
+  "Copyright": {
+    "ru": "Copyright (c) Техноком 2022",
+    "en": "Copyright (c) Tekhnokom 2022",
+    "cs": "Copyright (c) Tekhnokom 2022",
+    "az": "Copyright (c) Tekhnokom 2022"
+  },
+  "Support": {
+    "Mail": "support@tk-chel.ru",
+    "Site": "https://tk-nav.ru"
+  },
+  "Params": {
+    "Parameter1": {
+      "Description": {
+        "ru": "Пример параметра",
+        "en": "Parameter example"
+      },
+      "Default": "some value",
+      "Required": false,
+      "Validation": {
+         "MinLength": 4,
+         "MaxLength": 16
+      }
+    },
+  }
+}
