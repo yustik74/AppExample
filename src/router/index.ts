@@ -11,6 +11,16 @@ const routes: Array<RouteConfig> = [
     component: require( '../views/Home.vue').default
   },
   {
+    path: '/enumschemas',
+    name: 'Schemas',
+    component: require( '../views/EnumSchemas.vue').default
+  },
+  {
+    path: '/enumdevices',
+    name: 'Devices',
+    component: require( '../views/EnumDevices.vue').default
+  },
+  {
     path: '/about',
     name: 'About',
     component: require( '../views/About.vue').default

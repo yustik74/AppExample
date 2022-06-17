@@ -6,5 +6,6 @@ declare module 'vue/types/vue' {
         $settings: IExternalSettings;
         L: any;
         $serviceConnector: ServiceConnector;
+        $eventBus: Vue;
     }
 }

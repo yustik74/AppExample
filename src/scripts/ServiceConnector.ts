@@ -55,13 +55,6 @@ export class ServiceConnector {
                 },
                 mode: "cors"
             })
-            // .then(r => )
-            // .done((r: any) => {
-            //     if (converter) r = converter(r);
-            //     d.resolve(r);
-            // })
-            // .catch(() => d.reject())
-            // .always(() => this.changeStateCallback(false));
             .then(r => {
                 if (r.ok) return r.json();
                 console.error("[" + r.status + "] " + r.statusText + "  (" + this.url + ")");
